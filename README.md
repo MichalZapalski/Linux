@@ -35,3 +35,7 @@ find ./kurs -name pyton.txt / szuka pliku o podanej nazwie
 sed -e 's/ala/basia/' elementarz.txt / zamienia wyrażenie ala na basia w pliku elementarz.txt
 
 ps aux / wyświetla wszystkie procesy
+
+cp -R / kopiowanie rekursywne, np. w przypadku katalogu - cp -R /home/jenkins-agent/workspace/deploy_to_NET00000536/roles /home/jenkins-agent/workspace/deploy_to_NET00000859
+
+shutdown -r now / restart
